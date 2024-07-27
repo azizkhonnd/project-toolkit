@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: #8758ff;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.column {
+    border-radius: 4px;
+    padding: 10px;
+    width: 30%;
+    background: #1a1a40;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #8758ff;
+    border-radius: 4px;
+}
+
+.task span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.form_wrapper {
+    outline: none;
+    background: #1a1a40;
+    border: 1px solid #8758ff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 442px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.formBtn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.60rem 2rem;
+    cursor: pointer;
+}
+
+input {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #1a1a40;
+    color: #fff;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: #777474;
+    opacity: 1;
+}
+
+.task {
+    color: #fff;
+}
+
+.task span {
+    flex-grow: 1;
+    margin-right: 0px;
+}
+
+
+:where(.css-dev-only-do-not-override-1uq9j6g).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content,
+:where(.css-dev-only-do-not-override-1uq9j6g).ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-title-content {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.notification-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px ;
+    background-color: #1a1a40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
